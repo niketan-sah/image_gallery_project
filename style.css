@@ -62,3 +62,9 @@ img{
         transform: translate(0px) rotate(0deg);
     }
 }
+
+.product:hover{
+    box-shadow: 0 0 10px 5px #202020;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
