@@ -42,9 +42,9 @@ p{
     border-radius: 10px;
     width: 300px;
     height: 400px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
 }
 
 img{
@@ -52,4 +52,13 @@ img{
     height: 280px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+@keyframes rotate{
+    0%{
+        transform: translate(-1500px) rotate(25deg);
+    }
+    100%{
+        transform: translate(0px) rotate(0deg);
+    }
 }
